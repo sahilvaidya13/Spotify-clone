@@ -6,9 +6,12 @@ const Navbar = () => {
       <div class="logo"></div>
       <div class="nav-links">
         <ul className="links">
-          <li>Premium</li>
-          <li>Support</li>
-          <li>Download</li>
+          <li class="spl">Premium</li>
+          <li class="spl">Support</li>
+          <li class="spl">Download</li>
+          <li class="ntspl">|</li>
+          <li class="nspl">Sign up</li>
+          <li class="nspl">Log in</li>
         </ul>
       </div>
     </div>

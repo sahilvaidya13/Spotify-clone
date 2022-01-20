@@ -19,3 +19,34 @@
 ul {
   color: white;
 }
+
+ul li {
+  display: inline;
+}
+ul .spl {
+  padding: 28px;
+}
+
+ul .ntspl {
+  padding: 5px;
+}
+
+ul .nspl {
+  padding: 25px;
+}
+
+.nav-links {
+  position: absolute;
+  left: 836px;
+  top: 28px;
+}
+
+.spl:hover {
+  color: #10dd58;
+  cursor: pointer;
+}
+
+.nspl:hover {
+  color: #10dd58;
+  cursor: pointer;
+}
