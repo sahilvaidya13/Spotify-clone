@@ -1,0 +1,21 @@
+.logo {
+  position: absolute;
+  background-image: url('https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 39px;
+  width: 132px;
+  margin-left: 189px;
+  margin-top: 20px;
+}
+
+.main-nav {
+  position: relative;
+  background-color: black;
+  height: 80px;
+  display: flex;
+}
+
+ul {
+  color: white;
+}
