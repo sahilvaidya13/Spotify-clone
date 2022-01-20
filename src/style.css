@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&display=swap');
 
 h1,
 p {
@@ -10,4 +10,51 @@ p {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+}
+
+.sp-img {
+  background-image: url('https://i.ibb.co/bz5bdCK/Untitled-design.png');
+  width: 100%;
+  height: 850px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.t1,
+.t2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 120px;
+  color: #10dd58;
+}
+
+.t1 {
+  margin-left: -100px;
+  padding-top: 100px;
+}
+
+.t2 {
+  margin-left: 250px;
+}
+.t3 {
+  margin-left: 50px;
+  color: #10dd58;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+.main-btn {
+  background-color: #10dd58;
+  outline: none;
+  padding: 14px 32px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #2941ab;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  transform: scale(1.08);
 }
